@@ -1,0 +1,15 @@
+numbers = [1,1,2,2,2,3,3,3,3,3]
+ll = []
+
+for i in range(len(numbers)):
+    if numbers[i] not in ll:
+        ll.append(numbers[i])
+
+print(ll)
+
+
+#Using Data Structure Set-Time complexity will become O(n)
+numbers=[1,1,2,2,2,3,3,3,3,3]
+s=set(numbers)
+s=list(s)
+print(s)
